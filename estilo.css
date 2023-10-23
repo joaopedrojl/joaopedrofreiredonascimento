@@ -1,16 +1,16 @@
-* {
+* {    /* Definição geral */
     margin: 0 auto;
     padding: 0;
 }
 
-body {
+body {  /* Características do corpo do texto */
     font-size: 1em;
     font-family: sans-serif;
     background: #e6e6e6;
 
 }
 
-.navegacao {
+.navegacao {  /* Menu e espaçamentos/alinhamentos. */
     padding-top: 40px;
     background: #1659be;
     width: 100% auto;
@@ -20,23 +20,23 @@ body {
 
 }
 
-a {
+a { /* Estilização geral do link */
     text-decoration: none;
     font-family:monospace;
     font-size: 1.7em;
 }
 
-a:link, a:visited {
+a:link, a:visited {  /* Estilo ao clickar. */
     color: white;
  }
 
- a:hover {
+ a:hover {   /* Estilo ao passar o mouse */
     text-decoration: none;
     background: #fff;
     color:black;
   }
 
-  .conteudo {
+  .conteudo {  /* Definição do conteúdo. */
     
     text-align: center;
     margin-top: 20px; /* Define a margem superior para criar espaço entre a barra de navegação e o parágrafo */
